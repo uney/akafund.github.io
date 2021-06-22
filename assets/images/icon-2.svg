@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="26px" viewBox="0 0 27 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>pie-chart</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-—-Desktop" transform="translate(-853.000000, -371.000000)" stroke="#39DB80" stroke-width="2">
+            <g id="Simplicity-of-Investing-Copy-8" transform="translate(0.000000, 90.000000)">
+                <g id="Group-6" transform="translate(193.000000, 96.000000)">
+                    <g id="Monthly-Rebalancing" transform="translate(662.000000, 179.000000)">
+                        <g id="pie-chart" transform="translate(0.000000, 7.000000)">
+                            <path d="M3.80869565,9.91304348 C1.77391304,15.2869565 4.48695652,21.3391304 9.91304348,23.3217391 C15.3391304,25.3043478 21.3391304,22.5913043 23.3217391,17.2173913 C25.3043478,11.8434783 22.5913043,5.79130435 17.2173913,3.80869565 C16.0695652,3.33913043 14.8173913,3.13043478 13.5652174,3.13043478 C12.8869565,3.13043478 12.1565217,3.23478261 11.4782609,3.39130435" id="Path"></path>
+                            <path d="M11.4782609,12 L11.4782609,0 C8.86956522,0 6.31304348,0.886956522 4.22608696,2.50434783 C2.19130435,4.06956522 0.67826087,6.31304348 0,8.86956522 L11.4782609,12 Z" id="Path"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

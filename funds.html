@@ -1,0 +1,991 @@
+<!doctype HTML>
+	<HTML lang="en">
+		<head>
+			<title>
+				Bitcoin
+			</title>
+			<!--Global Links Start-->
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+			<link type="text/css" rel="stylesheet" href="assets/css/bootstrap.min.css">
+			<link type="text/css" rel="stylesheet" href="assets/css/font-awesome.min.css">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.css" integrity="sha512-/zs32ZEJh+/EO2N1b0PEdoA10JkdC3zJ8L5FTiQu82LR9S/rOQNfQN7U59U9BC12swNeRAz3HSzIL2vpp4fv3w==" crossorigin="anonymous" />
+			<link href="assets/css/app.css" type="text/css" rel="stylesheet">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css" integrity="sha512-mSYUmp1HYZDFaVKK//63EcZq4iFWFjxSL+Z3T/aCt4IO9Cejm03q3NKKYN6pFQzY0SBOr8h+eCIAZHPXcpZaNw==" crossorigin="anonymous" />
+			<!--Global Links End-->
+			<style>
+				
+			</style>
+		</head>
+		<body>
+			<div class="">
+				<nav class="navbar navbar-expand-lg nav-bar bg-white" id="nav-nav">
+					<div class="container">
+						<a class="navbar-brand" href="index.html" data-aos="zoom-in">
+							<h4 class="text-dark font-italic">Your Logo</h4>
+						</a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"><i class="fa fa-bars" style="color:#000"></i></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+							<ul class="navbar-nav mx-auto">
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle text-dark" href="funds.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										Funds
+									</a>
+									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<h6 class="">OUR FUNDS</h6>
+										<a class="dropdown-item" href="funds.html">Bitwise 10 Crypto Index Fund</a>
+										<a class="dropdown-item" href="funds.html">Bitwise DeFi Crypto Index Fund</a>
+										<a class="dropdown-item" href="funds.html">Bitwise Bitcoin Fund</a>
+										<a class="dropdown-item" href="funds.html">Bitwise Ethereum Fund</a>
+										<a class="dropdown-item" href="funds.html">Bitwise 10 Index Offshore Fund</a>
+										<h6 class="">PARTNERSHIPS</h6>
+										<a class="dropdown-item" href="funds.html">Digital Asset Index Fund</a>
+									</div>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										Resources
+									</a>
+									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<a class="dropdown-item" href="index.html">Home</a>
+										<a class="dropdown-item" href="#">Benchmark Surveys</a>
+										<a class="dropdown-item" href="#">Investor Letters</a>
+										<a class="dropdown-item" href="#">Research Briefs</a>
+										<a class="dropdown-item" href="#">Press Releases</a>
+										<a class="dropdown-item" href="#">Index Committee Meetings</a>
+									</div>
+								</li>
+								<li class="nav-item">
+									<a href="#" class="nav-link text-dark">
+										Financial Advisors
+									</a>
+								</li>
+								<li class="nav-item">
+									<a href="#" class="nav-link  text-dark">
+										About
+									</a>
+								</li>
+								<li class="nav-item">
+									<a href="#" class="nav-link  text-dark">
+										Sign In
+									</a>
+								</li>
+							</ul>
+							<form class="form-inline my-2 my-lg-0">
+								<button class="nav-btn btn myBtn btn-custom">
+									Stay Informed
+								</button>
+							</form>
+						</div>
+					</div>
+				</nav>
+				<div id="" class="bg-light2 funds-header fundsBanner">
+					<div class="container">
+						<div class="row headerrow">
+							<div class="col-md-7 pt-5 mt-5 paddingNone">
+								<img src="assets/images/bg-dots.svg" class="bg-dots">
+								<h1 class="bg-light2 header-zindex text-dark display-4 font-weight-bold">
+									BITW
+								</h1>
+								<h2 class="bg-light2 header-zindex text-dark font-weight-normal">
+									Bitwise 10 Crypto Index Fund
+								</h2>
+								<label class="funds-header-sm text-dark my-3">TICKER: BITW&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;CUSIP: 091749101</label>
+								<div class="row">
+									<div class="col-lg-8">
+										<div class="row allSmallFont">
+											<div class="col-4 header-badges px-2">
+												<label class="mytext-sm fontsize-10">MARKET PRICE*</label>
+												<label class="badge custom-badge px-3 badge-width">$82.69</label>
+											</div>
+											<div class="col-4 header-badges px-2">
+												<label class="mytext-sm fontsize-10">INTRADAY NAV**</label>
+												<label class="badge custom-badge px-3 badge-width">$82.69</label>
+											</div>
+											<div class="col-4 header-badges header-badges-last px-2">
+												<label class="mytext-sm fontsize-10">AUM †</label>
+												<label class="badge custom-badge px-3 badge-width">$1,026M</label>
+											</div>
+										</div>
+										<div class="row allSmallFont">
+											<div class="col-lg-4 col-6 header-badges px-2">
+												<label class="mytext-sm fontsize-10">CHANGE TODAY</label>
+												<label class="badge badge-secondary px-3 badge-width">-$0.66/-0.79%</label>
+											</div>
+											<div class="col-lg-4 col-6 header-badges px-2">
+												<label class="mytext-sm fontsize-10">PREV DAY NAV ††</label>
+												<label class="badge badge-secondary px-3 badge-width">-$0.66/-0.79%</label>
+											</div>
+											<div class="col-lg-4 col-0">
+
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-4 private-btn _privateBtn">
+										<button class="btn btn-custom-alt btn-lg">
+											Private Placement
+										</button>
+									</div>
+									
+								</div>
+								
+							</div>
+							<div class=" col-md-5  pt-5 mt-4 header-right">
+								<p class="mb-0 pl-2 border-left mt-5 mytext-sm pr-5 ml-5 _fullWide">
+									A secure way to get diversified exposure to bitcoin and leading cryptocurrencies. The Fund seeks to track an Index comprised of the 10 most highly valued cryptocurrencies, screened & monitored for certain risks, weighted by market capitalization, and rebalanced monthly. The fund provides the security and simplicity of a traditional investment vehicle, with shares tradable in brokerage accounts using ticker “BITW”.
+								</p>
+								<div class="ml-5 header-file mt-0 _fundDocLabel">
+									<label class="d-block mytext-sm fontsize-13 py-3">Fund Documents</label>
+									<a href="#" class="text-dark  mr-4 ">
+										<img src="assets/images/icon-6.svg" class="mr-3" height="25">
+										Fact Sheet
+									</a>
+									<a href="#" class=" text-dark">
+										<img src="assets/images/icon-6.svg" class="mr-3" height="25">
+										Disclosure
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-12 header-bottom">
+								<ul class="mytext-sm fontsize-10 line-height-16 py-5 _lsting">
+									<li>
+										* Market price as of 04/01/2021 8:10pm EDT.
+									</li>
+									<li>
+										** Intraday NAV as of 04/02/2021 5:00am EDT. Estimate calculated by Bitwise each hour.
+									</li>
+									<li>
+										† Estimated AUM at 04/02/2021 5:00am EDT; non-GAAP, un-audited.
+									</li>
+									<li>
+										†† Estimated NAV per share at 04/01/2021 4:00pm EDT; non-GAAP, un-audited
+									</li>
+									<li>
+										The Shares of any Fund are not registered under the Securities Act of 1933 (the “Securities Act”), the Securities Exchange Act of 1934 (the “Securities Exchange Act”), the Investment Company Act of 1940 (the “Investment Company Act”), or any state securities commission or other regulatory body. The Shares are publicly quoted on OTCQX® under the Alternative Reporting Standards
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Header End -->
+			<!-- Navigation Start -->
+			<div class="container-fluid" id="mySticky">
+				<div class="row pt-3 pb- navigation-top tabsLnks" id="inner-nav">
+					<div class="col-4 text-center">
+						<a href="#performance" class="inner-link active performanceLnk">
+							<label class="px-3">
+								Performance
+								<span class="bottom-line"> </span>
+							</label>
+						</a>
+					</div>
+					<div class="col-4 text-center">
+						<a href="#fund-details" class="inner-link fund-detailsLnk">
+							<label class="px-3">
+								Fund Details
+								<span class="bottom-line"> </span>
+							</label>
+						</a>
+					</div>
+					<div class="col-4 text-center">
+						<a href="#methodology" class="inner-link methodologyLnk">
+							<label class="px-3">
+								Methadology
+								<span class="bottom-line"> </span>
+							</label>
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- Navigation End -->
+			<!-- Performance-->
+			<div class="container mt-3 mb-5 pt-5 inner-target" id="performance">
+				<div class="row pt-4">
+					<div class="col-12 _cntnt">
+						<h1>Performance</h1>
+						<label class="mytext-sm">AS OF 04/01/2021 | 4:00PM EDT</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-2">
+						
+					</div>	
+					<div class="col-md-8 my-3">
+						<div class="row">
+							<div class="col-lg-8 col-md-7 my-3 _smBtns">
+								<button class="btn btn-light btn-sm mr-2">
+									7d
+								</button>
+								<button class="btn btn-light btn-sm mr-2">
+									1M
+								</button>
+								<button class="btn btn-light btn-sm mr-2">
+									3M
+								</button>
+								<button class="btn btn-light btn-sm mr-2">
+									1Y
+								</button>
+								<button class="btn btn-light btn-sm mr-2">
+									All
+								</button>
+							</div>
+							<div class="col-lg-4 col-md-5 my-3">	
+								<div class="input-group input-daterange _smBtns">
+									<input type="text" class="bg-light form-control" value="2012-04-05">
+									<div class="input-group-addon px-2 _to">to</div>
+									<input type="text" class="bg-light form-control" value="2012-04-19">
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-12">
+								<canvas id="myChart" class="mx-auto" width="80%" height="50"></canvas>
+								<label class="text-underchart">
+									Past performance does not predict future results. Performance of the Fund (blue line) is on an NAV per share basis, net of fees and expenses. Performance of the green line shows the last daily traded price for the shares on OTCQX
+								</label>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-2 ">
+
+					</div>
+				</div>
+				<div class="row">
+					<div class=" col-md-2">
+
+					</div>
+					<div class="col-md-8">
+						<div class=" p-3 bg-light2">
+							<h6>
+								Fund Holdings*
+							</h6>
+							<label class="mytext-sm fontsize-12 mb-0">
+								AS OF 04/01/2021 | 4:00PM EDT
+							</label>
+							<label class="mytext-sm fontsize-12">
+								* After monthly index rebalances, there may be delay in portfolio constituent changes being reflected here.
+							</label>
+							<div class="responsive-table">
+								<table class="w-100 mytable large-table">
+									<thead class="fontsize-12 mytext-sm">
+										<tr>
+											<th>
+												NAME
+											</th>
+											<th>	
+												WEIGHT
+											</th>
+											<th>	
+												MARKET CAP	
+											</th>
+											<th>	
+												PRICE	
+											</th>
+											<th>	
+												CHANGE (24HR)
+											</th>
+										</tr>
+									</thead>
+									<tbody class="fontsize-13">
+										<tr>
+											<td>
+												<img src="assets/images/coin-1.png" class="mr-2">
+												Bitcoin
+											</td>
+											<td>
+												78.45%			
+											</td>
+											<td>
+												$1,099,882,217,634
+											</td>
+											<td>
+												$58,918.35
+											</td>
+											<td class="text-custom">
+												0.57%
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<img src="assets/images/coin-2.png" class="mr-2">
+												Bitcoin
+											</td>
+											<td>
+												78.45%			
+											</td>
+											<td>
+												$1,099,882,217,634
+											</td>
+											<td>
+												$58,918.35
+											</td>
+											<td class="text-custom">
+												0.57%
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<img src="assets/images/coin-3.png" class="mr-2">
+												Bitcoin
+											</td>
+											<td>
+												78.45%			
+											</td>
+											<td>
+												$1,099,882,217,634
+											</td>
+											<td>
+												$58,918.35
+											</td>
+											<td class="text-custom">
+												0.57%
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<img src="assets/images/coin-4.png" class="mr-2">
+												Bitcoin
+											</td>
+											<td>
+												78.45%			
+											</td>
+											<td>
+												$1,099,882,217,634
+											</td>
+											<td>
+												$58,918.35
+											</td>
+											<td class="text-custom">
+												0.57%
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<img src="assets/images/coin-3.png" class="mr-2">
+												Bitcoin
+											</td>
+											<td>
+												78.45%			
+											</td>
+											<td>
+												$1,099,882,217,634
+											</td>
+											<td>
+												$58,918.35
+											</td>
+											<td class="text-custom">
+												0.57%
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<img src="assets/images/coin-3.png" class="mr-2">
+												Bitcoin
+											</td>
+											<td>
+												78.45%			
+											</td>
+											<td>
+												$1,099,882,217,634
+											</td>
+											<td>
+												$58,918.35
+											</td>
+											<td class="text-custom">
+												0.57%
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<img src="assets/images/coin-4.png" class="mr-2">
+												Bitcoin
+											</td>
+											<td>
+												78.45%			
+											</td>
+											<td>
+												$1,099,882,217,634
+											</td>
+											<td>
+												$58,918.35
+											</td>
+											<td class="text-custom">
+												0.57%
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						<div class="my-4">
+							<a href="#" class="fontsize-13 mytext-sm">
+								Download Crypto Holdings Per Share as of 03/23/2021
+							</a>
+						</div>
+					</div>
+					<div class=" col-md-2">
+							
+					</div>
+				</div>
+				<h5 class="mt-5">
+					Returns
+				</h5>
+				<div class="row">
+					<div class="col-12">
+						<div class="responsive-table">
+							<table class="mytable w-100 return-table large-table _myTable">
+								<thead>
+									<tr>
+										<th>
+
+										</th>
+										<th>
+											1 MONTH
+										</th>
+										<th>	
+											3 MONTHS
+										</th>
+										<th>	
+											YTD
+										</th>
+										<th>	
+											1 YEAR
+										</th>
+										<th>	
+											SINCE INCEPTION†
+										</th>
+										<th>	
+											JAN 1, 2017
+										</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th>
+											BITWISE 10 CRYPTO INDEX FUND*
+										</th>
+										<td>
+											21.8%
+										</td>
+										<td>	
+											108%
+										</td>
+										<td>	
+											108%
+										</td>
+										<td>	
+											817%
+										</td>
+										<td>	
+											414%
+										</td>
+										<td>	
+											-
+										</td>
+									</tr>
+									<tr>
+										<th>
+											BITCOIN
+										</th>
+										<td>
+											21.8%
+										</td>
+										<td>	
+											108%
+										</td>
+										<td>	
+											108%
+										</td>
+										<td>	
+											817%
+										</td>
+										<td>	
+											414%
+										</td>
+										<td>	
+											-
+										</td>
+									</tr>
+									<tr>
+										<th>
+											BITWISE 10 LARGE CAP CRYPTO INDEX
+										</th>
+										<td>
+											21.8%
+										</td>
+										<td>	
+											108%
+										</td>
+										<td>	
+											108%
+										</td>
+										<td>	
+											817%
+										</td>
+										<td>	
+											414%
+										</td>
+										<td>	
+											-
+										</td>
+									</tr>
+
+								</tbody>
+							</table>
+						</div>	
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12">
+						<ul class="my-ul smAllTxt">
+							<li>
+								* Fund returns are calculated net of expenses. Investor units are subject to a 2.5% annual fee that includes the management fee, custody charges for holding the fund’s assets charged by the custodian, and customary fees and expenses of the fund administrator and auditor.
+							</li>
+							<li>
+								** Performance of an index is not illustrative of any particular investment. It is not possible to invest directly in an index. Performance of the Bitwise 10 Index prior to October 1, 2017 represents a hypothetical, back-tested and unaudited return-stream that does not represent the returns of an actual account. Index performance does not include the fees and expenses that are charged by the Fund. Actual returns may differ materially from hypothetical, back-tested returns. Back-testing is calculated by retroactively applying a financial model or Index-weighting methodology to the historical data to obtain returns. Please refer to additional important disclosures here.
+							</li>
+							<li>	
+								† 11/22/2017 was the inception of the fund
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- Performance End -->
+			<!-- Fund Details Start -->
+			<div class=" py-5" id="fund-details">
+				<div class="container inner-target pt-4" >
+					<div class="row">
+						<div class="col-12">
+							<h1>
+								Fund Details
+							</h1>
+							<label class="mytext-sm">
+								AS OF 04/02/2021
+							</label>
+						</div>
+						<div class="col-md-6">
+							<table class="mytable">
+								<tbody>
+									<tr>
+										<th>
+											TICKER
+										</th>
+										<td>
+											BITW
+										</td>
+									</tr>
+									<tr>
+										<th>
+											BLOOMBERG
+										</th>
+										<td>
+											BITW US
+										</td>
+									</tr>
+									<tr>
+										<th>
+											TICKER
+										</th>
+										<td>
+											BITW
+										</td>
+									</tr>
+									<tr>
+										<th>
+											BLOOMBERG
+										</th>
+										<td>
+											BITW US
+										</td>
+									</tr>
+									<tr>
+										<th>
+											TICKER
+										</th>
+										<td>
+											BITW
+										</td>
+									</tr>
+									<tr>
+										<th>
+											BLOOMBERG
+										</th>
+										<td>
+											BITW US
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="col-md-6">
+							<table class="mytable">
+								<tbody>
+									<tr>
+										<th>
+											TICKER
+										</th>
+										<td>
+											BITW
+										</td>
+									</tr>
+									<tr>
+										<th>
+											BLOOMBERG
+										</th>
+										<td>
+											BITW US
+										</td>
+									</tr>
+									<tr>
+										<th>
+											TICKER
+										</th>
+										<td>
+											BITW
+										</td>
+									</tr>
+									<tr>
+										<th>
+											BLOOMBERG
+										</th>
+										<td>
+											BITW US
+										</td>
+									</tr>
+									<tr>
+										<th>
+											TICKER
+										</th>
+										<td>
+											BITW
+										</td>
+									</tr>
+									<tr>
+										<th>
+											BLOOMBERG
+										</th>
+										<td>
+											BITW US
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-3"></div>
+						<div class="col-md-6 mt-3">
+							<table class="mytable">
+								<tbody>
+									<tr>
+										<th>
+											TICKER
+										</th>
+										<td>
+											BITW
+										</td>
+									</tr>
+									<tr>
+										<th>
+											BLOOMBERG
+										</th>
+										<td>
+											BITW US
+										</td>
+									</tr>
+									<tr>
+										<th>
+											TICKER
+										</th>
+										<td>
+											BITW
+										</td>
+									</tr>
+									<tr>
+										<th>
+											BLOOMBERG
+										</th>
+										<td>
+											BITW US
+										</td>
+									</tr>
+									<tr>
+										<th>
+											TICKER
+										</th>
+										<td>
+											BITW
+										</td>
+									</tr>
+									<tr>
+										<th>
+											BLOOMBERG
+										</th>
+										<td>
+											BITW US
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="col-md-3"></div>
+						<divc class="col-12">
+							<ul class="my-ul smAllTxt">
+								<li>
+									* Expense Ratio includes the management fee, custody charges for holding the fund’s assets charged by the custodian, and customary fees and expenses of the fund administrator and auditor.
+								</li>
+								<li>
+									** The Shares of any Fund are not registered under the Securities Act of 1933 (the “Securities Act”), the Securities Exchange Act of 1934 (the “Securities Exchange Act”), the Investment Company Act of 1940 (the “Investment Company Act”), or any state securities commission or other regulatory body. The Fund does not currently operate a redemption program.
+								</li>
+							</ul>
+						</divc>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Fund Details  End -->
+			<!-- Methadology Start -->
+			<div class="container py-5 inner-target" id="methodology">
+				<div class="row pt-4">
+					<div class="col-12 ">
+						<h1>Methodology</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6  mt-5">
+						<p class="text-secondary mb-4 pera">
+							The Bitwise Crypto Indexes follow clear, rules-based processes to make them both investable and replicable. The methodologies take into account crypto-native factors surrounding liquidity, security, regulatory status, market representation, network distributions and more to ensure they fully capture the investable cryptoasset market opportunity.
+						</p>
+						<div class="media media-custom my-4">
+							<img class="simple-icon" src="assets/images/icon-1.svg" alt="Generic placeholder image">
+							<div class="media-body">
+								<h6 class="mt-0">The most valuable assets, rebalanced monthly</h6>
+							</div>
+						</div>
+						<div class="media media-custom my-4">
+							<img class="simple-icon" src="assets/images/icon-3.svg" alt="Generic placeholder image">
+							<div class="media-body">
+								<h6 class="mt-0">Robust diligence of eligibility criteria</h6>
+							</div>
+						</div>
+						<div class="media media-custom my-4">
+							<img class="simple-icon" src="assets/images/icon-1.svg" alt="Generic placeholder image">
+							<div class="media-body">
+								<h6 class="mt-0">24/7 monitoring for sudden events</h6>
+							</div>
+						</div>
+						<button class="btn mt-5 border-0 btn-custom btn-lg py-3" style="font-size: 14px;">
+							View Methodology
+						</button>
+					</div>
+					<div class="col-md-6 pl-4  mt-5">
+						<h5 style="font-size: 18px;font-weight: 700;color: rgb(44, 44, 44);">Index Advisory Board</h5>
+						<div class="media media-custom my-4">
+							<img class="team-image-sm" src="assets/images/team-1.jpg" alt="Generic placeholder image">
+							<div class="media-body">
+								<h6 class="my-0">Srikant Dash</h6>
+								<label class="font-italic mytext-sm">Senior Strategic Advisor</label>
+								<label class="mytext-sm detail">Previously Global Head of . Before that, Managing Director and Global Head of Research & Design at Standard & Poor’s.</label>
+							</div>
+						</div>
+						<div class="media media-custom my-4">
+							<img class="team-image-sm" src="assets/images/team-2.jpg" alt="Generic placeholder image">
+							<div class="media-body">
+								<h6 class="my-0">Srikant Dash</h6>
+								<label class="font-italic mytext-sm">Senior Strategic Advisor</label>
+								<label class="mytext-sm detail">Previously Global Head of Index Business at Bloomberg LP. Before that, Managing Director and Global Head of Research & Design at Standard & Poor’s.</label>
+							</div>
+						</div>
+						<div class="media media-custom my-4">
+							<img class="team-image-sm" src="assets/images/team-3.jpg" alt="Generic placeholder image">
+							<div class="media-body">
+								<h6 class="my-0">Srikant Dash</h6>
+								<label class="font-italic mytext-sm">Senior Strategic Advisor</label>
+								<label class="mytext-sm detail">Previously at Bloomberg LP. Before that, Managing Director and Global Head of Research & Design at Standard & Poor’s.</label>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			<!-- Methadology section End -->
+			
+			
+			<!-- Footer Start-->
+			<div class="footer py-5">		 
+				<div class="container">		 
+					<div class="row py-5">		 
+						<div class="col-lg-7 col-md-6 col-sm-6 col-12 text-white pl-5 _pl5"> 
+							<h2 class="font-1">BitWise</h2>
+							<form>
+								<label class="fontsize-13 mt-5 d-block">
+									Sign up for our monthly research and Investor Letter.
+								</label>
+								<div class="input-group mb-5 shadow-lg newsletter">
+									
+									<input type="email" class="form-control border-0" style="height:44px" id="" aria-describedby="emailHelp" placeholder="Enter email">
+									<div class="input-group-append">
+										<button class="btn btn-custom-alt" style="box-shadow: rgb(0 0 0 / 0%) 0px 2px 6px 0px;">
+											Sign Up
+										</button>
+									</div>
+								</div>
+							</form>
+						</div>	
+						<div class="col-lg-2 col-md-3 col-sm-4 col-6 ">		 
+							<ul style="margin-top:20px;">		 
+								<li class="my-3"> <a href="index.html">Contact us</a> </li>		 
+								<li class="my-3"> <a href="funds.html">Careers</a> </li>
+								<li class="my-3"> <a href="#">Anouncements</a> </li> 	 
+								<li class="my-3"> <a href="#">Twitter</a> </li> 	 
+							</ul>
+						</div>		 
+						<div class="col-md-3 col-sm-4 col-6">		 
+							<ul style="margin-top:20px;">	
+								<li class="my-3"> <a href="index.html">Disclosures</a> </li>		 
+								<li class="my-3"> <a href="funds.html">Terms of Service</a> </li>
+								<li class="my-3"> <a href="#">Privacy Policy</a> </li> 	 
+								<li class="my-3"> <a href="#">FAQ</a> </li> 	 
+							</ul>
+						</div>
+					</div>
+					<div class="row pt-5">
+						<div class="col-12 fontsize-12 text-light mt-5 footer-bottom">
+							<p>
+								Important Information
+							</p>
+							<p>
+								Carefully consider the risk factors, investment objectives, fees, expensenses, and other information associated with each of the following: Bitwise 10 Crypto Index Fund, Bitwise DeFi Crypto Index Fund, Bitwise Bitcoin Fund, Bitwise 10 Index Offshore Fund, Ltd., Digital Asset Index Fund, LLC, Bitwise Ethereum Fund, LLC (the “Funds”) or the shares of said Funds (the “Shares”) before making an investment decision regarding any of the Funds. Such risk factors, investment objectives, fees, expenses and other important information, can be found in each Fund’s Private Placement Memorandum, which can be obtained from Bitwise Asset Management, Inc. and its affiliates (collectively “Bitwise”), and for each Fund that has issued Shares available for trading on the OTCQX Best Market, in such Fund’s Annual Report or Information Statement and Quarterly Reports, which can be found on www.otcmarkets.com for the Bitwise 10 Crypto Index Fund (Symbol: BITW). The reports available on www.otcmarkets.com have been prepared in accordance with the Alternative Reporting Standard and have not been filed with, reviewed, or approved by the U.S. Securities and Exchange Commission (the “SEC”) or any other regulatory agency or state securities commission. Any representation to the contrary is a criminal offense. Such documents may not contain all of the information necessary for a prospective investor to make a fully informed investment decision, and all investors are encouraged to read all available documents prior to making an investment decision.
+							</p>
+							<p>	
+								All Funds are speculative investments that involve a high degree of risk, uncertainty, and are not suitable for investors that cannot afford loss of the entire investment. For each Fund that has issued Shares that are available for trading on the OTCQX Best Market, including the Bitwise 10 Crypto Index Fund (Symbol: BITW), there can be no assurance that the value of the Shares, if traded on any secondary market, will reflect the value of the Trust’s net assets. Such Shares may trade at a substantial premium over, or a substantial discount to, the value of the Trust’s net assets, because, among other factors, such Funds do not currently operate a redemption program, and because, among other factors, such Funds’ Shares when initially issued are subject to the holding period under Rule 144 of the Securities Act. As a result of these factors, there is no arbitrage mechanism to keep the price of the Shares closely linked to the value of the trusts net assets, and the Shares may trade at a substantial premium over, or substantial discount to, the value of the Funds net assets, and therefore the performance of the Funds’ Shares may deviate significantly from the performance of the Funds Net Asset Value per share (“NAV”). There is no guarantee that any Fund will meet its investment objective.
+							</p>
+							<p>	
+								No Advice on Investment; Risk of Loss: Prior to making any investment decision in respect of any Fund or Shares of any Fund, each investor must undertake its own independent examination and investigation of the Fund, including the merits and risks involved in an investment in the Fund or Shares, and must base its investment decision – including a determination whether Shares would be a suitable investment for the investor – on such examination and investigation and must not rely on Bitwise or the Funds in making such investment decision. Prospective investors must not construe the contents of this website as legal, tax, investment, or other advice. Each prospective investor is urged to consult with its own advisors with respect to legal, tax, regulatory, financial, accounting and similar consequences of investing in any Fund, the suitability of the investment for such investor and other relevant matters concerning an investment in the Fund. This website contains an overview summary of the terms of the Fund. The summary set forth on this website does not purport to be complete, and is qualified in its entirety by reference to the definitive offering documents relating to each Fund and/or in each case, if available in addition, the Fund’s Annual Report or Information Statement and Quarterly Reports, which can be found on www.otcmarkets.com for the Bitwise 10 Crypto Index Fund (Symbol: BITW). Do not place undue reliance on this website.
+							</p>
+							<p>		
+								The Shares of any Fund are not registered under the Securities Act of 1933 (the “Securities Act”), the Securities Exchange Act of 1934 (the “Securities Exchange Act”), the Investment Company Act of 1940 (the “Investment Company Act”), or any state securities commission or other regulatory body. Bitwise is not registered as an Investment Adviser under the Investment Advisers Act of 1940 (the “Advisers Act”), and is not registered as a Commodity Pool Operator or Commodity Trading Adviser under the Commodity Exchange Act (the “Commodity Exchange Act”).
+							</p>
+							<p>	
+								Shares of or interests in each Fund are offered in private placements pursuant to the exemption from registration provided by Section 4(a)(2) of the Securities Act of 1933 and Rule 506 of Regulation D promulgated thereunder and other exemptions of similar import in the laws of the states and jurisdictions where the offering will be made and are only issued and sold directly by the Fund to accredited investors. As a result, the Shares of each Fund when initially sold are restricted and subject to significant limitations on transfer and resale. Prospective investors in any Fund should very carefully consider such risks prior to making any investment decision, including the fact that certain Funds may not offer a redemption program. This website is neither an offer to sell nor a solicitation to buy units or shares in any Fund. Any such offer or solicitation will be made solely through definitive offering documents, identified as such, which will contain information about each Fund's investment objectives and terms and conditions of an investment and may also describe risks and tax information related to an investment therein and which qualifies in its entirety the information set forth on this website.
+							</p>
+							<p>	
+							The Shares of Funds that are publicly quoted on the OTCQX Best Market are Shares that have become “unrestricted” under Rule 144 of the Securities Act one year and a day subsequent to the date that the Shares were originally issued (although Shares held by affiliates and insiders will be subject to additional restrictions on resales, including restrictions on the number of Shares that may be resold within any three-month period). Shares that have become unrestricted may be quoted on the OTCQX Best Market and may be purchased and sold throughout the trading day through any brokerage account with access to such markets.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+			<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>	
+			<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js" integrity="sha512-d9xgZrVZpmmQlfonhQUvTR7lMPtO7NkZMkA0ABN3PHCbKA5nqylQ/yWlFAyY6hYgdF1Qh6nYiuADWwKB4C2WSw==" crossorigin="anonymous"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js" integrity="sha512-T/tUfKSV1bihCnd+MxKD0Hm1uBBroVYBOYSk1knyvQ9VyZJpc/ALb4P0r6ubwVPSGB2GvjeoMAJJImBG12TiaQ==" crossorigin="anonymous"></script>
+
+			<script type="text/javascript">
+			
+
+				$(document).ready(function() {
+				$('.inner-link').bind('click', function(e) {
+				e.preventDefault();
+
+				var target = $(this).attr("href");
+				$(this).addClass('active');
+				$(this).parent().siblings().children('.inner-link').removeClass('active');
+				$('html, body').stop().animate({
+						scrollTop: $(target).offset().top
+				}, 1000, function() {
+						location.hash = target;
+				});
+
+				return false;
+						});
+				});
+
+				$(window).scroll(function() {
+						var scrollDistance = $(window).scrollTop();
+
+						}).scroll();
+
+						window.onscroll = function() {myFunction()};
+
+						// Get the header
+						var header = document.getElementById("mySticky");
+
+						// Get the offset position of the navbar
+						var sticky = header.offsetTop;
+
+						// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+						function myFunction() {
+						if (window.pageYOffset > sticky) {
+							header.classList.add("sticky");
+						} else {
+							header.classList.remove("sticky");
+						}
+					};
+			</script>
+			<script>
+				$('.input-daterange input').each(function() {
+					$(this).datepicker('');
+				});
+			</script>
+			<script>
+			
+				var ctx = document.getElementById('myChart').getContext('2d');
+				var myChart = new Chart(ctx, {
+				
+					type: 'line',
+				
+				data: {
+					labels: ['Apr 20', 'July 20', 'Oct 20', 'Jan 20', 'Apr 21'],
+					datasets: [{
+						label: 'Bitcoin',
+						data: [30, 130, 3, 5, 76, 80],
+						fill:false,
+						borderColor: [
+							'rgba(255, 99, 132, 1)',
+							'rgba(54, 162, 235, 1)',
+							'rgba(255, 206, 86, 1)',
+							'rgba(75, 192, 192, 1)',
+							'rgba(153, 102, 255, 1)',
+							'rgba(255, 159, 64, 1)'
+						],
+						borderWidth: 1
+					},
+					{
+						label: '$',
+						data: [130, 30, 4, 121, 54, 67],
+						fill:false,
+						borderColor: [
+							'rgba(0, 255, 0, 1)',
+						],
+						borderWidth: 1
+					}
+				]
+				},
+				
+				options: {
+					scales: {
+						y: {
+							display: true,
+							position: 'right' ,
+							beginAtZero: true
+						}
+					}
+				}
+			});
+				
+			</script>
+			
+		</body>
+	</html>	
